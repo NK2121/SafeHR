@@ -47,15 +47,15 @@ export default function SignupPage() {
             />
           </div>
 
-          {/* School Email */}
+          {/* Email */}
           <div>
-            <label htmlFor="schoolEmail" className="block mb-1 font-medium">
-              School Email
+            <label htmlFor="Email" className="block mb-1 font-medium">
+              Email
             </label>
             <input
-              id="schoolEmail"
+              id="Email"
               type="email"
-              placeholder="name@school.edu"
+              placeholder="@email"
               className="
                 w-full px-4 py-2 
                 border border-gray-300 
